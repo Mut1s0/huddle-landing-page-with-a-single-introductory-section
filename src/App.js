@@ -1,10 +1,11 @@
 import './App.css';
+import Huddle from './Huddle';
 
 function App() {
 
   return(
 
-    <h1>App</h1>
+    <Huddle />
     
   )
 }

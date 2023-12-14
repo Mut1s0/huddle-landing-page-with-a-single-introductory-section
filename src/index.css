@@ -7,7 +7,7 @@
 :root {
 
     /* Colors */
-    
+
     --violet: hsl( 257, 40%, 49% );
     --soft-magenta: hsl( 300, 69%, 71% );
 
@@ -17,4 +17,37 @@
     --fw-poppins-regular: 400;
     --fw-poppins-semiBold: 600;
     --fw-openSans-regular: 400;
+}
+
+body {
+    border: 4px solid red;
+    background-image: url(./images/bg-mobile.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--violet);
+}
+
+section > div > h1 {
+    font-weight: var(--fw-poppins-semiBold);
+    font-family: var(--ff-poppins);
+}
+
+section > div > p {
+    font-family: var(--ff-openSans);
+    font-weight: var(--fw-openSans-regular);
+}
+
+button {
+    color: var(--violet);
+    font-family: var(--ff-poppins);
+    font-weight: var(--fw-poppins-regular);
+}
+
+footer > i {
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
 }
