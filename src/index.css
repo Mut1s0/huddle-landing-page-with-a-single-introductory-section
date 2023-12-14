@@ -20,7 +20,6 @@
 }
 
 body {
-    border: 4px solid red;
     background-image: url(./images/bg-mobile.svg);
     background-position: left;
     background-repeat: no-repeat;
@@ -50,4 +49,17 @@ footer > i {
     padding: 10px;
     font-size: 30px;
     color: white;
+}
+
+@media only screen and ( min-width: 992px ) {
+    footer > i {
+        font-size: 30px;
+    }
+}
+
+@media only screen and ( min-width: 1024px ) {
+
+    body {
+        background-image: url(./images/bg-desktop.svg);
+    }
 }
