@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+
+    /* Colors */
+    
+    --violet: hsl( 257, 40%, 49% );
+    --soft-magenta: hsl( 300, 69%, 71% );
+
+    --ff-poppins: 'Poppins', sans-serif;
+    --ff-openSans: 'Open Sans', sans-serif;
+
+    --fw-poppins-regular: 400;
+    --fw-poppins-semiBold: 600;
+    --fw-openSans-regular: 400;
+}
