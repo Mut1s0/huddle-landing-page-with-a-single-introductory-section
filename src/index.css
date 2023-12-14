@@ -43,12 +43,23 @@ button {
     font-weight: var(--fw-poppins-regular);
 }
 
+button:hover {
+    background-color: var(--soft-magenta);
+    color: white;
+}
+
 footer > i {
     border: 1px solid white;
     border-radius: 100%;
     padding: 10px;
     font-size: 30px;
     color: white;
+    cursor: pointer;
+}
+
+footer > i:hover {
+    border: 1px solid var(--soft-magenta);
+    color: var(--soft-magenta);
 }
 
 @media only screen and ( min-width: 992px ) {

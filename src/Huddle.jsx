@@ -6,19 +6,19 @@ function Huddle() {
 
     return(
 
-        <main className='h-[350px] sm:h-[600px] md:h-auto min-[820px]:h-screen min-[1023px]:h-auto py-10 sm:max-w-[90%] min-[992px]:max-w-[100%] min-[1024px]:max-w-[95%] sm:mx-auto min-[992px]:grid min-[992px]:content-center'>
+        <main className='h-[350px] sm:h-[600px] md:h-auto min-[820px]:h-screen py-10 sm:max-w-[90%] min-[992px]:max-w-[100%] min-[1024px]:max-w-[85%] sm:mx-auto min-[992px]:grid min-[992px]:content-center'>
 
             {/* Container */}
 
-            <div className="min-[820px]:grid min-[820px]:content-center">
+            <div className="min-[820px]:flex min-[820px]:flex-col">
 
                 <header className=" min-[992px]:py-10">
 
-                    <img src={Logo} alt="Logo" className="w-[170px] sm:w-[250px] min-[992px]:w-[200px] cursor-pointer" />
+                    <img src={Logo} alt="Logo" className="w-[170px] sm:w-[250px] min-[992px]:w-[200px] min-[1024px]:w-[300px] cursor-pointer" />
 
                 </header>
 
-                <section className="min-[992px]:grid min-[992px]:grid-cols-2 min-[992px]:gap-10">
+                <section className="min-[992px]:grid min-[992px]:grid-cols-2 min-[992px]:gap-20">
 
                     <img src={HeroImage} alt="Hero" className="w-full py-10 h-full" />
 
@@ -34,7 +34,7 @@ function Huddle() {
 
                 </section>
 
-                <footer className="flex justify-center items-center gap-3 py-10 min-[992px]:justify-end">
+                <footer className="flex justify-center items-center gap-10 py-10 min-[992px]:justify-end">
 
                     <i class='bx bxl-facebook'></i>    
                     <i class='bx bxl-twitter'></i>
