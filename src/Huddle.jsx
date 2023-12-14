@@ -12,7 +12,7 @@ function Huddle() {
 
             <div className="min-[820px]:flex min-[820px]:flex-col">
 
-                <header className=" min-[992px]:py-10">
+                <header className="min-[992px]:py-10 min-[1024px]:pb-[70px]">
 
                     <img src={Logo} alt="Logo" className="w-[170px] sm:w-[250px] min-[992px]:w-[200px] min-[1024px]:w-[300px] cursor-pointer" />
 
